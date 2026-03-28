@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+</head>
+<body>
+  <h1><%= title %></h1>
+  <ul>
+    <% users.forEach(function(user) { %>
+    <li>ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>, Email: <%= user.eMail %>, Age: <%= user.Age %>, Bio: <%= user.Bio %></li>
+    <a href="/<%= user.id %>/update">Update</a>
+    <!-- This time we're sending a POST request to our route, so we need a form. -->
+    <% }); %>
+</ul>
+  <a href="/">Back to user list</a>
+</body>
+</html>

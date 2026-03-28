@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+<body>
+  <h1><%= title %></h1>
+  <form action="/create" method="POST">
+    <label for="firstName">First Name: </label>
+    <input type="text" name="firstName" id="firstName" required>
+    <label for="lastName">Last Name: </label>
+    <input type="text" name="lastName" id="lastName" required>
+    <label for="eMail">Email: </label>
+    <input type="email" name="eMail" id="eMail" required>
+    <label for="Age">Age: </label>
+    <input type="number" name="Age" id="Age">
+    <label for="Bio">Bio: </label>
+    <input type="textarea" name="Bio" id="Bio">
+    <button type="submit">Submit</button>
+    <%- include('partials/errors.ejs') %>
+  </form>
+  <a href="/">Back to home</a>
+</body>
+</html>

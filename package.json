@@ -1,0 +1,25 @@
+{
+  "name": "the-odin-project-form-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GT264/the-odin-project-form-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GT264/the-odin-project-form-study/issues"
+  },
+  "homepage": "https://github.com/GT264/the-odin-project-form-study#readme",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1"
+  }
+}
